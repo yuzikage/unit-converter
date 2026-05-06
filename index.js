@@ -7,9 +7,11 @@
 // Get references to DOM elements
 const inputEl = document.getElementById("input-el");
 const convertBtn = document.getElementById("convert-btn");
-const lengthEl = document.getElementById("length-el");
+const lengthEl = document.getElementById("result");
 const volumeEl = document.getElementById("volume-el");
 const massEl = document.getElementById("mass-el");
+
+const resultEl = document.getElementById("result");
 
 // Add event listener to the convert button
 convertBtn.addEventListener("click", function() {
