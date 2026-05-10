@@ -5,33 +5,23 @@
     </head>
     <body>
 
-        <div>
-            <h1>Welcome to the Unit Converter</h1>
-            <h2>Convert between different units of measurement</h2>
-            <h3>Enter the value you want to convert:</h3>
-            <input type="number" id="inputValue" placeholder="Enter value">
-            <h3>Select the unit you want to convert from:</h3>
-            <select id="fromUnit">
-                <option value="meters">Meters</option>
-                <option value="kilometers">Kilometers</option>
-                <option value="miles">Miles</option>
-                <option value="feet">Feet</option>
-            </select>
-            <h3>Select the unit you want to convert to:</h3>
-            <select id="toUnit">
-                <option value="meters">Meters</option>
-                <option value="kilometers">Kilometers</option>
-                <option value="miles">Miles</option>
-                <option value="feet">Feet</option>
-            </select>
-            <button id="convertButton">Convert</button>
-            <h3 id="result"></h3>
-            
-            <p>The result should be displayed above here</p>
-
-            <p>This converter is not working T_T</p>
-;35PM
-            <p>craziest push of all time - time 9th May 11:35 PM</p>
+        <div class="container">
+            <div class="header">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <input type="number">
+                <button id="convert">Convert</button>
+            </div>
+            <div>
+                <div>
+                    <h3>Length</h3>
+                </div>
+                <div>
+                    <h3>Volume</h3> 
+                </div>
+                <div>
+                    <h3>Mass</h3>
+                </div>  
+            </div>
         </div>
 
         <script src="index.js"></script>
